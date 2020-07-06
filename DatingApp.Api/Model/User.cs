@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 
 namespace DatingApp.Api.Model
 {
+    //UserProp
     public class User
     {
         public int Id { get; set; }
