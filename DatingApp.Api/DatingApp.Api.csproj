@@ -5,7 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="DTO\" />
+    <Compile Remove="Migrations\20200706111056_CodeFirst.cs" />
+    <Compile Remove="Migrations\20200706111056_CodeFirst.Designer.cs" />
   </ItemGroup>
 
   <ItemGroup>
